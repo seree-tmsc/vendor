@@ -1,0 +1,174 @@
+/* Custom Colored Panels */
+.huge {
+    font-size: 40px;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+.panel-green > .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+.panel-green > a {
+    color: #5cb85c;
+}
+.panel-green > a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+.panel-red > .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+.panel-red > a {
+    color: #d9534f;
+}
+.panel-red > a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: goldenrod;
+}
+.panel-yellow > .panel-heading {
+    border-color: #fdf900;
+    color: #000000;
+    background-color: #FFFF33;
+}
+.panel-yellow > .panel-body {
+    border-color: #f5ed0a;
+    color: rgb(60, 6, 77);
+    background-color: #f5f29f;
+}
+.panel-yellow > a {
+    color: #FFFF33;
+}
+.panel-yellow > a:hover {
+    color: #b8b229;
+}
+.panel-orange {
+    border-color: #f0ad4e;
+}
+.panel-orange > .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+.panel-orange > a {
+    color: #f0ad4e;
+}
+.panel-orange > a:hover {
+    color: #df8a13;
+}
+
+.panel-blue {
+    border-color: blue;
+}
+.panel-blue > .panel-heading {
+    border-color:rgb(55, 149, 238);
+    color:rgb(55, 149, 238);
+    background-color: rgb(154, 224, 230);
+}
+.panel-blue > a {
+    color: rgb(154, 224, 230);
+}
+.panel-blue > a:hover {
+    color:blue;
+}
+
+.panel-pink {
+    border-color: rgb(243, 9, 118);
+}
+.panel-pink > .panel-heading {
+    border-color:pink;
+    color: pink;
+    background-color: rgba(255, 192, 204, 0.151);
+}
+.panel-pink > a {
+    color: #db8d9e88;
+}
+.panel-pink > a:hover {
+    color: rgb(243, 9, 118);
+}
+
+.panel-seagreen {
+    border-color: #2E8B57;
+}
+.panel-seagreen > .panel-heading {
+    border-color:#2E8B57;
+    color: #fff;
+    background-color: #2E8B57;
+}
+.panel-seagreen > .panel-body {
+    border-color:#98FB98;
+    color: #fff;
+    background-color: #98FB98;
+}
+.panel-seagreen > a {
+    color: #2E8B57;
+}
+.panel-seagreen > a:hover {
+    color: #00FF7F;
+}
+
+.table-hover {
+     background-color: Snow;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: PapayaWhip;
+}
+thead{
+    background-color: yellow;
+}
+.head-salmon{
+    background-color: LightSalmon;
+}
+.btn-yellow{
+    background-color: yellow;
+}
+.btn-red{
+    background-color: red;
+}
+
+.bg-dark{
+    background-color: white;
+}
+
+
+/*---------------------------- */
+/* CSS for bootstrap-inputtype */
+/*---------------------------- */
+/*
+.container{
+    margin-top:20px;
+}
+*/
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+/*---------------------------- */
